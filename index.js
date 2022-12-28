@@ -23,7 +23,7 @@ const store = new sessionStore({
 // })();
 
 app.use(session({
-    secret: process.env.SESS_SECRET,
+    secret: 'secretidhere',
     resave: false,
     saveUninitialized: true,
     store: store,
@@ -41,4 +41,5 @@ app.use(AuthRoutes);
 
 //store.sync();
 
-app.listen(5000, ()=> console.log('Server Up and Running...')); 
+app.listen(5000, ()=> {console.log('Server up and running...');
+});

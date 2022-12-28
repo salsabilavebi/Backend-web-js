@@ -42,3 +42,24 @@ Content-Type: application/json
 // delete 
 
 DELETE  http://localhost:5000/Users/15e40872-2694-4899-8206-fa57bf182c2a
+
+//Login 
+### 
+POST   http://localhost:5000/login
+Content-Type: application/json
+
+{
+   
+    "email": "salsabilavebi68@gmail.com",
+    "password": "123456"
+    
+}
+
+
+###
+
+GET   http://localhost:5000/me
+
+### 
+DELETE    http://localhost:5000/logout
+
