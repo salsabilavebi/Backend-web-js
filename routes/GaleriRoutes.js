@@ -8,9 +8,9 @@ import {
 
 const router = express.Router();
 
-router.get('/Galeris', getGaleris);
-router.get('/Galeris/:id', getGaleriById);
-router.post('/Galeris', saveGaleri);
+router.get('/galeris', getGaleris);
+router.get('/galeris/:id', getGaleriById);
+router.post('/galeris', saveGaleri);
 
 
 export default router;

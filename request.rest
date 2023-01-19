@@ -5,10 +5,10 @@ Content-Type: application/json
 
 {
     "name": "Anisa",
-    "email": "salsabilavebi68@gmail.com",
+    "email": "salsabilavebinatasya19@gmail.com",
     "password": "123456",
-    "confPassword": "123456",
-    "role": "user"
+    "confPassword": "123456"
+   
 
 }
 
@@ -50,7 +50,7 @@ Content-Type: application/json
 
 {
    
-    "email": "salsabilavebi68@gmail.com",
+    "email": "salsabilavebinatasya19@gmail.com",
     "password": "123456"
     
 }
